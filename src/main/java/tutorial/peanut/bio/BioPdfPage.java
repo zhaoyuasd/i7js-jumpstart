@@ -17,6 +17,7 @@ import com.itextpdf.layout.property.VerticalAlignment;
 import java.io.IOException;
 
 public class BioPdfPage {
+    // 页眉页脚
   public  static PdfPage addBioPage(PdfDocument pdfDoc,Integer pageNum,Document document) throws IOException {
       String  title="19(IPW)   2201395-ID-ES";
       String foot1="Peanut Technology Pte.Ltd.   LC No.19C9926    Tel: +65 69709425";
